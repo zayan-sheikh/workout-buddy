@@ -45,24 +45,6 @@ header a {
   padding: 20px;
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
-  transition: all 0.3s;
-  animation-fill-mode: forwards;
-  
-  
-}
-
-.workout-details:hover {
-  transform: scale(1.03, 1.03);
-  
-  
-}
-
-@keyframes detail-animate {
-  0%{transform: scale(0, 0)}
-}
-
-@keyframes hover-detail-animate {
-  100%{}
 }
 
 .workout-details h4 {
@@ -112,6 +94,12 @@ form button {
   font-family: "Poppins";
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+form button:hover {
+  background: #118052;
+  transform: scale(1.06)
 }
 div.error {
   padding: 10px;
