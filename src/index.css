@@ -7,12 +7,12 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #161616;
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: #0a0a0a;
 }
 header .container {
   max-width: 1400px;
@@ -23,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
 }
 .pages{
@@ -39,7 +39,7 @@ header a {
   gap: 100px;
 }
 .workout-details {
-  background: #fff;
+  background: #222222;
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;
@@ -54,22 +54,27 @@ header a {
 .workout-details p {
   margin: 0;
   font-size: 0.9em;
-  color: #555;
+  color: #ffffff;
 }
 .workout-details span {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
-  background: #f1f1f1;
+  background: #222222;
   padding: 6px;
   border-radius: 50%;
-  color: #333;
+  color: #fcfcfc;
 }
 
 /* new workout form */
-label, input {
+input {
   display: block;
+}
+
+h3, label {
+  color: #fff;
+  display: block
 }
 input {
   padding: 10px;
@@ -100,4 +105,8 @@ div.error {
 
 input.error {
   border: 1px solid var(--error)
+}
+
+.material-symbols-outlined {
+  
 }
