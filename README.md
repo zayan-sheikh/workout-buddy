@@ -1,6 +1,9 @@
 # Workout Buddy
 This project was inspired by a series of YouTube tutorials to help me learn the MERN stack, and will serve as a catalyst for me to build even more complex applications in future.
 
+## Technologies Used:
+MongoDB (to store exercises), Express.js (middleware), React (for the UI), Node.js (middleware) 
+
 ![image](https://github.com/zayan-sheikh/workout-buddy/assets/115755798/5acf7564-4257-4cef-a196-94256ca876a5)
 
 
